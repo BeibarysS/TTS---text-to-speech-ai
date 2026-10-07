@@ -1,0 +1,156 @@
+import { KazakhVoice } from '../types/tts';
+
+export const KAZAKH_VOICES: KazakhVoice[] = [
+  {
+    id: 'altynay',
+    name: 'Altynay',
+    nativeName: 'Алтынай',
+    gender: 'female',
+    geminiVoice: 'Kore',
+    tagline: 'Жылы, әуезді әрі биязы үн',
+    description: 'Қазақ тілінің үндестік заңы мен әуезділігін жеткізетін нәзік әйел дауысы. Әдеби шығармаларға, аудиокітаптарға және жағымды баяндауларға қолайлы.',
+    recommendedFor: ['Аудиокітаптар', 'Әдеби шығармалар', 'Жарнама', 'Ертегілер'],
+    sampleText: 'Сәлеметсіз бе! Менің есімім — Алтынай. Қазақ тілінің бай сөздік қорын, әуезділігі мен табиғи ырғағын бүгін бірге тыңдайық.',
+    defaultStyle: 'Warm, melodious, natural Kazakh female speaker with authentic prosody and gentle vowel cadence',
+    avatarSeed: 'Altynay',
+  },
+  {
+    id: 'beibarys',
+    name: 'Beibarys',
+    nativeName: 'Бейбарыс',
+    gender: 'male',
+    geminiVoice: 'Fenrir',
+    tagline: 'Салиқалы, терең әрі асқақ ер дауысы',
+    description: 'Салмақты, эпостық екпіні бар беделді ер дауысы. Тарихи баяндамаларға, батырлар жырына, поэзия мен салтанатты мәтіндерге арналған.',
+    recommendedFor: ['Поэзия', 'Тарихи деректі фильмдер', 'Салтанатты сөздер', 'Батырлар жыры'],
+    sampleText: 'Армысыздар, ағайын! Менің есімім — Бейбарыс. Ұлы даланың асқақ рухы мен ата-бабамыздың сөз қадірін асқақтата жеткізуге әзірмін.',
+    defaultStyle: 'Deep, resonant, authoritative Kazakh male orator with grounded gravitas and epic cadence',
+    avatarSeed: 'Beibarys',
+  },
+  {
+    id: 'aigul',
+    name: 'Aigul',
+    nativeName: 'Айгүл',
+    gender: 'female',
+    geminiVoice: 'Zephyr',
+    tagline: 'Анық, сенімді дикторлық тембр',
+    description: 'Теле-радио эфирінің кәсіби талаптарына сай, әрбір дыбысы анық естілетін заманауи диктор дауысы. Жаңалықтар мен хабарландыруларға арналған.',
+    recommendedFor: ['Жаңалықтар', 'Автожауапбергіш (IVR)', 'Хабарландырулар', 'Түсіндірме видеолар'],
+    sampleText: 'Қайырлы күн! Бүгінгі басты жаңалықтар мен экономикалық шолуға қош келдіңіздер. Маңызды оқиғаларды бірге қадағалайық.',
+    defaultStyle: 'Crisp, articulate, professional Kazakh female news anchor with impeccable diction and dynamic newsroom delivery',
+    avatarSeed: 'Aigul',
+  },
+  {
+    id: 'daniyar',
+    name: 'Daniyar',
+    nativeName: 'Данияр',
+    gender: 'male',
+    geminiVoice: 'Puck',
+    tagline: 'Жігерлі, заманауи әрі еркін ырғақ',
+    description: 'Қазіргі жастар сөйлесісіне тән жеңіл, достық көңіл-күй сыйлайтын еркін дауыс. Подкастарға, IT стартап видеоларына және блогтарға өте ыңғайлы.',
+    recommendedFor: ['IT және технология подкастары', 'Блогтар', 'Мобильді қосымшалар', 'Оқыту курстары'],
+    sampleText: 'Сәлем достар! Менің есімім — Данияр. Бүгінгі шығарылымда жасанды интеллект пен заманауи технологиялар жайлы еркін әңгіме өрбітеміз.',
+    defaultStyle: 'Energetic, youthful, natural Kazakh male speaker with conversational cadence and friendly warmth',
+    avatarSeed: 'Daniyar',
+  },
+  {
+    id: 'dana',
+    name: 'Dana',
+    nativeName: 'Дана',
+    gender: 'female',
+    geminiVoice: 'Aoede',
+    tagline: 'Сабырлы, түсінікті тәлімгер үні',
+    description: 'Тыңдаушының зейінін баурап алатын салмақты әрі жылы әйел дауысы. Ғылыми-танымдық материалдарға, курстарға және медитацияға лайық.',
+    recommendedFor: ['Онлайн курстар', 'Ғылыми дәрістер', 'Медитация', 'Балалар ертегісі'],
+    sampleText: 'Сәлеметсіз бе! Әр жаңа тақырыпты қарапайым әрі түсінікті тілмен баяндап, білім көкжиегін бірге кеңейтейік.',
+    defaultStyle: 'Calm, gentle, articulate Kazakh female educator with soothing and supportive tone',
+    avatarSeed: 'Dana',
+  },
+  {
+    id: 'ernar',
+    name: 'Ernar',
+    nativeName: 'Ернар',
+    gender: 'male',
+    geminiVoice: 'Charon',
+    tagline: 'Байсалды, корпоративтік көшбасшы үні',
+    description: 'Іскерлік келіссөздер, жылдық есептер мен презентацияларға арналған сенімді, байсалды ер адам дауысы.',
+    recommendedFor: ['Корпоративтік видеолар', 'Бизнес презентация', 'Қаржылық шолулар', 'Аудиогидтер'],
+    sampleText: 'Құрметті серіктестер! Біз инновациялық тәсілдер мен сенімді серіктестікке негізделген жаңа белестерге қадам бастық.',
+    defaultStyle: 'Mature, steady, confident Kazakh corporate speaker with poised articulation and professional demeanor',
+    avatarSeed: 'Ernar',
+  },
+];
+
+export interface LibraryPreset {
+  id: string;
+  category: 'literature' | 'poetry' | 'news' | 'business' | 'dialogue';
+  categoryLabel: string;
+  title: string;
+  author?: string;
+  recommendedVoiceId: string;
+  style: string;
+  text: string;
+}
+
+export const KAZAKH_LIBRARY_PRESETS: LibraryPreset[] = [
+  {
+    id: 'abai_word_17',
+    category: 'literature',
+    categoryLabel: 'Классикалық әдебиет',
+    title: 'Он жетінші қара сөз',
+    author: 'Абай Құнанбайұлы',
+    recommendedVoiceId: 'beibarys',
+    style: 'Deep, philosophical, solemn Kazakh recitation with contemplative pauses',
+    text: 'Қайрат, Ақыл, Жүрек үшеуі өнерлерін салыстырып, таласып келіп, Ғылымға жүгініпті. Қайрат айтыпты: «Ей, Ғылым, өзің де білесің ғой, дүниеде менен артық ешнәрсе жоқ. Мен болмасам, сенің үйренген өнерің кімге дәрі?» — депті. Сонда Ғылым айтыпты: «Үшеуіңнің де айтқандарың рас, бірақ бәріңді де бір арнаға тоғыстыратын — Жүрек», — депті.',
+  },
+  {
+    id: 'mukatayev_otan',
+    category: 'poetry',
+    categoryLabel: 'Поэзия',
+    title: 'Отан',
+    author: 'Мұқағали Мақатаев',
+    recommendedVoiceId: 'altynay',
+    style: 'Emotional, lyric, soulful Kazakh poetry recitation with poetic rhythm',
+    text: 'Отан! Сенің түніңді сүйем, күніңді сүйем! Асқар тау, жайқалған дала, өзен-көліңді сүйем. Мен сенің әрбір шөбіңнің сыбдырын, жусанның иісін жүрегіммен сеземін. Сен барда ғана менің үнім асқақ, сен барда ғана менің болашағым жарқын.',
+  },
+  {
+    id: 'zhumabayev_zhastar',
+    category: 'poetry',
+    categoryLabel: 'Поэзия',
+    title: 'Мен жастарға сенемін',
+    author: 'Мағжан Жұмабаев',
+    recommendedVoiceId: 'beibarys',
+    style: 'Inspiring, elevated, stirring patriotic declamation',
+    text: 'Арыстандай айбатты, Жолбарыстай қайратты, Қырандай күшті қанатты — Мен жастарға сенемін! Көздерінде от ойнаған, Сөздерінде жалын бар, Қазақ елінің намысын қорғайтын жалынды жастарға сенемін!',
+  },
+  {
+    id: 'tech_news',
+    category: 'news',
+    categoryLabel: 'Ғылым және IT',
+    title: 'Астанадағы жасанды интеллект дамуы',
+    author: 'Tech Silk Way',
+    recommendedVoiceId: 'aigul',
+    style: 'Fast-paced, modern, crisp broadcast news delivery',
+    text: 'Астана Хаб алаңында қазақ тіліндегі цифрлық лингвистика мен жасанды интеллектке арналған халықаралық форум басталды. Ғалымдар ұлттық тіл қорының 10 миллиард сөзін цифрландырып, дауыстық синтез сапасын 98 пайызға дейін көтергенін хабарлады.',
+  },
+  {
+    id: 'customer_care',
+    category: 'business',
+    categoryLabel: 'Бизнес және қызмет',
+    title: 'Автоматты қызмет көрсету хабарламасы',
+    author: 'Қолдау қызметі',
+    recommendedVoiceId: 'aigul',
+    style: 'Polite, clear, friendly interactive voice response',
+    text: 'Қайырлы күн! Біздің қолдау қызметіне хабарласқаныңыз үшін рақмет. Сіздің сұрағыңыз тіркелді. Маманға қосылу үшін бірді басыңыз, қызметтер тізімін тыңдау үшін екіні таңдаңыз.',
+  },
+  {
+    id: 'podcast_intro',
+    category: 'dialogue',
+    categoryLabel: 'Подкаст',
+    title: '«Дала үні» технологиялық подкасты',
+    author: 'Данияр & Алтынай',
+    recommendedVoiceId: 'daniyar',
+    style: 'Casual, vibrant, friendly podcast banter',
+    text: 'Сәлем, подкаст тыңдармандары! Бүгін біз студияда жасанды интеллект арқылы қазақ тілінің жаңа белеске көтерілуін талқылаймыз. Бізбен бірге болыңыздар!',
+  },
+];
